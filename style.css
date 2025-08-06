@@ -129,7 +129,7 @@ nav ul li a:hover {
 .product-card2 {
   width: 100vw;
   /* height: 90vh; */
-  /* background-image:url("img/icons/frame-corner-and-border-element-with-filigree-vintage-style-decorative-ornament-design-for-page-frame-template-paper-card-certificate-wedding-invitation-menu-vector.png"); */
+  
   background-size: contain;
   /* border-radius: 10px; */
   /* padding: 15px; */
@@ -216,7 +216,7 @@ nav ul li a:hover {
   /* align-items: center; */
   /* justify-content: center; */
   /* background-color: #FFF1E6; */
-  background-image: url("img/back/ChatGPT\ Image\ Aug\ 1\,\ 2025\,\ 05_35_11\ PM.png");
+  background-image: url("back/ChatGPT\ Image\ Aug\ 1\,\ 2025\,\ 05_35_11\ PM.png");
   background-attachment:fixed;
   background-size: 300px;
   background-repeat: repeat;
@@ -253,7 +253,7 @@ nav ul li a:hover {
 .product-card {
   width: 300px;
   height: 430px;
-  background-image:url("img/icons/frame-corner-and-border-element-with-filigree-vintage-style-decorative-ornament-design-for-page-frame-template-paper-card-certificate-wedding-invitation-menu-vector.png");
+  background-image:url("frame.png");
   background-size: contain;
   border-radius: 10px;
   padding: 15px;
@@ -309,7 +309,7 @@ nav ul li a:hover {
 
 /* ///////////////////////////////////////////////////////////////////// */
 .site-footer {
-  background-image: url("img/back/footer_background_16inch_landscape.png"); /* Maroon */
+  background-image: url("back/footer_background_16inch_landscape.png"); /* Maroon */
   background-size: 300px;
   background-attachment: fixed;
   color: #fff8dc; /* Cream */
@@ -369,3 +369,4 @@ nav ul li a:hover {
   margin-top: 20px;
   font-size: 0.9rem;
 }
+
