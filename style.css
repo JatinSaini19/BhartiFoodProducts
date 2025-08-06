@@ -1,0 +1,371 @@
+body {
+  margin: 0;
+  /* font-family:; */
+  /* background-image: url("img/back/ChatGPT\ Image\ Jul\ 30\,\ 2025\,\ 09_22_25\ AM.png"); */
+  color: white;
+  background-repeat: repeat-y;
+  align-items: center;
+  overflow-x: hidden;
+
+}
+
+#icons {
+  width: 100%;
+  height: 100%;
+  /* margin-left: 3px; */
+  position: static;
+  top: 0;
+  z-index: -1;
+  border-bottom: 5px solid #b1a517;
+}
+
+/* Base Navbar Styling */
+nav {
+  background-color: #b1a517; /* golden yellow */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Navigation Links */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #3c3c3c;
+}
+
+/* Hamburger Button */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #b1a517;
+    padding: 1rem 0;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+}
+
+#marq{
+  color: white;
+  background-color: red;
+  padding: 3.5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.slider-container2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider2 {
+  display: flex;
+  gap: 0px;
+  overflow-x: auto;
+  scrollbar-width: 0;
+  scroll-behavior: smooth;
+  /* padding: 10px; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
+.product-card2 {
+  width: 100vw;
+  /* height: 90vh; */
+  /* background-image:url("img/icons/frame-corner-and-border-element-with-filigree-vintage-style-decorative-ornament-design-for-page-frame-template-paper-card-certificate-wedding-invitation-menu-vector.png"); */
+  background-size: contain;
+  /* border-radius: 10px; */
+  /* padding: 15px; */
+  text-align: center;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  flex-shrink: 0;
+}
+
+.product-card2 img {
+  width: 100%;
+  height: auto;
+  /* border-radius: 6px; */
+  /* margin: 10%; */
+}
+
+.product-card2 h4 {
+  font-size: 18px;
+  color: #444;
+  /* margin: 10px 0 5px; */
+}
+
+
+.scroll-btn2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-left2 {
+  left: 0;
+}
+
+.scroll-right2 {
+  right: 0;
+}
+
+.scroll-btn2:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+
+.brands_intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#diff {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* position: relative; */
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+#diff img {
+  width: 40%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 700;
+  /* float: left; */
+}
+
+.Popular_products {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: #FFF1E6; */
+  background-image: url("img/back/ChatGPT\ Image\ Aug\ 1\,\ 2025\,\ 05_35_11\ PM.png");
+  background-attachment:fixed;
+  background-size: 300px;
+  background-repeat: repeat;
+  padding: 4%;
+  border-top: 10px solid red;
+}
+
+.label p {
+  /* display: flex; */
+  float: left;
+  /* justify-content: left; */
+}
+
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scrollbar-width: 0;
+  scroll-behavior: smooth;
+  padding: 10px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
+.product-card {
+  width: 300px;
+  height: 430px;
+  background-image:url("img/icons/frame-corner-and-border-element-with-filigree-vintage-style-decorative-ornament-design-for-page-frame-template-paper-card-certificate-wedding-invitation-menu-vector.png");
+  background-size: contain;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  flex-shrink: 0;
+}
+
+.product-card img {
+  width: 60%;
+  height: auto;
+  border-radius: 6px;
+  margin: 10%;
+}
+
+.product-card h4 {
+  font-size: 18px;
+  color: #444;
+  margin: 10px 0 5px;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #444;
+  margin: 5px 0;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-left {
+  left: 0;
+}
+
+.scroll-right {
+  right: 0;
+}
+
+.scroll-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////// */
+.site-footer {
+  background-image: url("img/back/footer_background_16inch_landscape.png"); /* Maroon */
+  background-size: 300px;
+  background-attachment: fixed;
+  color: #fff8dc; /* Cream */
+  padding: 40px 20px 20px;
+  font-family: 'Georgia', serif;
+  border-top: 4px solid gold;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-container > div {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+
+.footer-branding h2 {
+  color: gold;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: #fff8dc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: gold;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid goldenrod;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}

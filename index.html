@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BFP</title>
+</head>
+<body>
+    <nav>
+  <div class="logo">Bharti Food</div>
+  <button class="hamburger" id="hamburger">&#9776;</button>
+  <ul id="nav-menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Brands</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('nav-menu');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+</script>
+
+<marquee id="marq" behavior="" direction="left">Bharti Food Products serving Best and delitious test of haryana's treditional Taste form 10 years ago for our family.</marquee>
+<div class="slider-container2">
+  <button class="scroll-btn2 scroll-left2" onclick="scrollSlider2(-1)">←</button>
+  <div class="slider2" id="productSlider2">
+    <!-- Product 1 -->
+    
+      <div class="product-card2">
+        <img src="img/front/diwali.jpg" alt="">
+      </div>
+    
+    <!-- Product 2 -->
+    <div class="product-card2">
+      <img src="img/back/holi.png" alt="">
+    </div>
+    
+  </div>
+  <button class="scroll-btn2 scroll-right2" onclick="scrollSlider2(1)">→</button>
+</div>
+<script>
+  function scrollSlider2(direction) {
+    const slider2 = document.getElementById('productSlider2');
+    const scrollAmount = window.innerWidth; // px
+    slider2.scrollLeft += direction * scrollAmount;
+  }
+</script>
+
+  <!-- <img id="Showcase_images" src="img/back/diwali.png" alt=""> -->
+    <!-- <div id="diff">
+      <img src="img/icons/vecteezy_floral-elements-design-luxury-ornamental-graphic-element_7120299.png" alt="">
+    </div> -->
+    <div class="Popular_products">
+      <div class="label">
+        <p id="about">Popular Products :-</p>
+      </div>
+      <div class="slider-container">
+  <button class="scroll-btn scroll-left" onclick="scrollSlider(-1)">←</button>
+  <div class="slider" id="productSlider">
+    <!-- Product 1 -->
+    <a href="">
+      <div style="background-image: url(frame.png);" class="product-card">
+        <img src="img/back/make these images sm.png" alt="Kaju Katli">
+        <h4>Sanam - Value Pack <button>+</button></h4>
+        <p>₹100 +GST</p>
+      </div>
+    </a>
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="img/back/Kabir_lassan.png" alt="Kaju Roll">
+      <h4>Kabir Lehasun</h4>
+      <p>₹100 +GST</p>
+    </div>
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="img/back/Kabir_chanadal.png" alt="Dry Fruit Ladoo">
+      <h4>Kabir Mung Dal</h4>
+      <p>₹524.00 Inc. GST</p>
+    </div>
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="img/back/Kabir_bundi.png" alt="Patisa">
+      <h4>Kabir Kadipatta Bundi</h4>
+      <p>₹100 +GST</p>
+    </div>
+    <!-- Product 5 -->
+    <div class="product-card">
+      <img src="img/back/JK.png" alt="Dal Makhani">
+      <h4>J.K. Aggarwal</h4>
+      <p>₹100.00 Inc. GST</p>
+    </div>
+  </div>
+  <button class="scroll-btn scroll-right" onclick="scrollSlider(1)">→</button>
+</div>
+<!-- ////////////////////////////////////////////////////////////////////////// -->
+<script>
+  function scrollSlider(direction) {
+    const slider = document.getElementById('productSlider');
+    const scrollAmount = window.innerWidth; // px
+    slider.scrollLeft += direction * scrollAmount;
+  }
+</script>
+    </div>
+    
+    <div id="diff">
+      <img  src="img/icons/vecteezy_floral-elements-design-luxury-ornamental-graphic-element_7120299.png" alt="">
+    </div>
+  <div class="brands_intro">
+      <!-- <img id="diff" src="img/icons/vecteezy_floral-elements-design-luxury-ornamental-graphic-element_7120299.png" alt=""> -->
+      <div class="Sanam">
+        <div class="Sanam_left"><img src="" alt=""></div>
+        <div class="Sanam_right"></div>
+      </div>
+      <div class="Kabir">
+        <div class="Kabir_left"><img src="" alt=""></div>
+        <div class="Kabir_right"></div>
+      </div>
+      <div class="Tringa">
+        <div class="Tringa_left"></div>
+        <div class="Tringa_right"></div>
+      </div>
+      <div class="J.K.">
+        <div class="J.K._left"></div>
+        <div class="J.K._right"></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-branding">
+      <h2>Bharti Food Products</h2>
+      <p>Taste That Unites Every Home</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Brands</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>📍 New Adarsh Nagar, Rewari-123401, Haryana</p>
+      <p>📞 09896455144, 9416889084, 8708299220</p>
+      <p>⏰ 10:00 AM - 5:00 PM</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Bharti Food Products | Designed by Jatin Saini</p>
+  </div>
+</footer>
+
+</body>
+</html>
